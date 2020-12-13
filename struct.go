@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+type Student struct {
+	id int
+	name string
+}
 func main()  {
 	type Student struct {
 		id int
@@ -19,3 +23,8 @@ func main()  {
 	fmt.Println(s2)
 
 }
+
+
+
+
+
